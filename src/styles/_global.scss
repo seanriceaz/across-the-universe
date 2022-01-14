@@ -1,0 +1,16 @@
+// global.scss
+// This file contains the primitives in use across the site. Colors, fonts, etc.
+// This file does not contain any actual CSS.
+
+$fontFamilyDefault: "Roboto", sans-serif, serif;
+
+$fontSizeJumbo: 4rem;
+$fontSizeLarge: 2rem;
+$fontSizeDefault: 1rem;
+$fontSizeSmall: .75rem;
+
+$backgroundBody: #000;
+
+$textColorNormal: #fff;
+$textColorAccent: #9575b4;
+$linkColor: #6359ec;

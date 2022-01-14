@@ -1,0 +1,30 @@
+// page.scss
+// This file contains the styles to render a non-post page.
+
+@import "global";
+
+body { 
+    background: $backgroundBody;
+}
+
+main {
+    color: $textColorNormal;
+    padding: 6rem;
+    font-family: $fontFamilyDefault;
+}
+
+p {
+    font-size: $fontSizeDefault;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    font-size: $fontSizeJumbo;
+    margin-top: 0;
+    margin-bottom: 4rem;
+    max-width: 20rem;
+}
+
+.accent {
+    color: $textColorAccent;
+}

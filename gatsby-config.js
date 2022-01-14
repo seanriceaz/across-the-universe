@@ -4,7 +4,14 @@ module.exports = {
     title: "Across The Universe",
   },
   plugins: [
-    "gatsby-plugin-sass",
+    {
+      resolve: "gatsby-plugin-sass",
+      options: {
+        sassOptions: {
+          includePaths: ["src/styles"]
+        }
+      }
+    },
     {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
@@ -46,5 +53,13 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: { 
+          families: ['roboto']
+        }
+      }
+    }
   ],
 };
