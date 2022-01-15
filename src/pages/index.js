@@ -1,13 +1,15 @@
 import * as React from "react"
 
+import Layout from "../components/layout"
+
 import "../styles/page.scss"
 
 // markup
 const IndexPage = () => {
   return (
-    <main>
-      <title>AcrossTheUniverse.Fun - How to have some fun in the real world, separately together</title>
-      <h1>Across The Universe .Fun</h1>
+    <Layout 
+      pageTitle = "AcrossTheUniverse.Fun - How to have some fun in the real world, separately together"
+      pageName = "Across The Universe .Fun">
       <h2 className="accent">Ways to enjoy time with your loved ones at a distance.</h2>
       <h2>Merry Christmas, Dad.</h2>
       <p>
@@ -27,7 +29,7 @@ const IndexPage = () => {
         <br /><br />
         They're perfect for kids to play with grandparents, or distant friends. They're good, clean, free, fun.
       </p>
-    </main>
+    </Layout>
   )
 }
 

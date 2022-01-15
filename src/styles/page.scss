@@ -13,6 +13,10 @@ main {
     font-family: $fontFamilyDefault;
 }
 
+nav#siteNav {
+    display: none;
+}
+
 p {
     font-size: $fontSizeDefault;
     margin-bottom: 3rem;
